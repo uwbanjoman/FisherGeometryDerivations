@@ -1,2 +1,5 @@
 # src/FisherGeometryDerivations
-include("Operators.jl")
+
+using LinearAlgebra
+
+include(joinpath(@__DIR__, "Operators.jl"))
