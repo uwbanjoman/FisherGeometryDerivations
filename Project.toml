@@ -1,1 +1,4 @@
-
+name = "FisherGeometryDerivations"
+uuid = "5b332f43-0e74-4d49-b5e8-a15e038dc96e"
+authors = ["Jan Bouwmanm <email@example.com>"]
+version = "0.1.0"
