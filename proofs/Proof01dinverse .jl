@@ -101,7 +101,9 @@ function proof()
     println("Step 2  Differentiate L⁻¹L = I along the direction H.")
     println("           Product rule:")
     println("               D(L⁻¹)·L  +  L⁻¹·(DL)  =  0")
-    println("        (no computation needed — this is the product rule)\n")
+    product_rule_residual = Symbolics.derivative.(L_inv * L, ε) |>
+    M -> map(f -> substitute(simplify(f), ε => 0), M)
+    @assert is_zero_matrix(product_rule_residual)
 
     # ── Step 3 ───────────────────────────────────────────────────────
     println("Step 3  Compute LHS = D(L⁻¹)(H) as a directional derivative.")
