@@ -21,6 +21,7 @@ module Proof03_ChristoffelBures
 
 using Symbolics
 using LinearAlgebra
+using Printf
 
 ########################################################################
 #  SHARED SETUP
