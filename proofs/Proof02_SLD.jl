@@ -19,6 +19,7 @@ module Proof02_SLD
 
 using Symbolics
 using LinearAlgebra
+using Printf
 
 ########################################################################
 #  SHARED HELPERS
