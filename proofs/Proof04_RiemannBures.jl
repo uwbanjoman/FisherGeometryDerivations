@@ -24,6 +24,7 @@
 module Proof04_RiemannBures
 
 using LinearAlgebra
+using Printf
 
 ########################################################################
 #  SHARED HELPERS
