@@ -28,6 +28,8 @@
 module Proof06_EinsteinFromFisher
 
 using LinearAlgebra
+using Statistics
+using Printf
 
 ########################################################################
 #  SHARED SETUP
