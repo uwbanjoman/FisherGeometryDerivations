@@ -25,6 +25,8 @@
 module Proof04_RiemannBures
 
 using LinearAlgebra
+using Statistics
+using Printf
 
 ########################################################################
 #  SHARED SETUP
