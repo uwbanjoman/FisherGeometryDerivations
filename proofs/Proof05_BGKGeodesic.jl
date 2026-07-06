@@ -24,6 +24,8 @@
 module Proof05_BGKGeodesic
 
 using LinearAlgebra
+using Statistics
+using Printf
 
 ########################################################################
 #  SHARED SETUP
