@@ -28,6 +28,8 @@
 module Proof07_NonlinearGR
 
 using LinearAlgebra
+using Statistics
+using Printf
 
 ########################################################################
 #  SHARED SETUP
